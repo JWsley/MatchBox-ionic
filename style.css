@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 1340px;
+    width: 100vw;
+    border: 5px solid red;
+    border-bottom: 10px solid blue;
+    background-color: #181818;
+}
+
+.cabecalho{
+    height: 414px;
+    width: 100%;
+    background-image: url(./img/notebookBackg.jpg);
+ 
+    background-attachment: fixed;
+    background-size: 100% 414px;
+    background-repeat: no-repeat;
+    background-position:  unset ;
+    z-index: 0;
+    box-shadow: inset 0px -34px 29px -13px rgba(0,0,0,0.75);
+ 
+
+  
+
+}
+
+
+.title{
+    width: 190px;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200       ;
+    font-size: 24px;
+    line-height: 29px;
+    border-bottom: 1px solid white;
+    
+}
+
+.cabecont{
+    z-index: 1;
+   
+    padding-top: 10%;
+    padding-left: 8%;
+   
+    
+    
+ 
+}
+
+ 
+
+.ionIcon{
+    height: 30px;
+    width: auto;
+}
+
+
+
+.anuncio{
+
+    
+    margin-left: 8%;
+    margin-top: 12%;
+    height: 50%;
+    border-left: 2px solid white;
+
+}
+
+.anuncio p{
+    width: 290px;
+    height: 62px;
+    font-family: 'Mina';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 13px;
+    line-height:15px;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    color: #FFFFFF;
+}
+
+.subanuncio{
+    width: 235px;
+    height: 19px;
+
+
+font-family: 'Mina';
+font-style: normal;
+font-weight: 400px;
+opacity: 80%;
+font-size: 12px;
+line-height: 20px;
+}
+
+.gratuito{
+    margin-right:20%;
+    margin-top: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 34px;
+ 
+    
+    background: #FFFFFF;
+    border-radius: 25px;
+}
