@@ -10,21 +10,28 @@ window.addEventListener('scroll',function(){
 
 
 function startForm(){
-    // const block = document.querySelector('#blockForm');
-    // const main = document.querySelector('main')
-    // block.style.display="block"
- 
-
-
+    const formcont = document.querySelector('#formcont');
+    const blur = document.querySelector('main');
+    const effectdark = document.querySelector('#blockForm');
+    const body = document.querySelector('body')
+    effectdark.style.display="block";
+    body.style.overflow="hidden";
+    blur.style.filter=" blur(3px)";
+    effectdark.style.transition="2s";
 
 }
 
 
 function endForm(){
-    // const block = document.querySelector('#blockForm');
+    const blur = document.querySelector('main');
+    const effectdark = document.querySelector('#blockForm');
+    const body = document.querySelector('body');
 
-    // block.style.display="none"
+    effectdark.style.display="none";
 
+    body.style.overflow="visible";
+    body.style.overflowX="hidden";
+    blur.style.filter="none";
 
 
 }

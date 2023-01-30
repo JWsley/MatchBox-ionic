@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     cursor: default;
+    
 
 
 }
@@ -13,7 +14,7 @@ body{
     flex-direction: column;
     height: 1340px;
     width: 100vw;
- 
+    overflow-x: hidden;
    
     background-color: #181818;
 }
@@ -111,7 +112,7 @@ body{
 
 .gratuito{
     margin-right:20%;
-    margin-top: 30%;
+    margin-top: 25%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -288,7 +289,7 @@ li{
     background: rgb(0, 106, 255);
     border-radius: 4px;
     border: 1px solid white;
-
+    cursor: pointer;
     color: white;
     outline: none;
     transition: .5s;
@@ -326,7 +327,7 @@ li{
    
     background-color: rgba(0, 0, 0, 0.5);
 
-     
+     top: 0px;
     position: absolute;
     display: none;
 }
@@ -351,10 +352,10 @@ li{
     transition: 5s;
 
     background:  rgb(50, 50, 50);
+    border:  3px solid white;
     mix-blend-mode: normal;
     border-radius: 10px;
-
-    bottom: 15%;
+    top: 1000px;
 }
 
 
@@ -404,3 +405,701 @@ color: #FFFFFF;
     color: black;
 }
 
+ 
+
+@media (min-width:535px) {
+
+    .title{
+            font-size: 70px;
+
+            width: 500px;
+            padding-bottom: 25px;
+
+    }    
+    .cabecalho{
+        height: 800px;
+        background-size: 100% 800px;
+
+
+
+    }
+    .ionIcon{
+        height: 45px;
+        width: auto;
+    }
+    .anuncio{
+        margin-top: 6%;
+        
+
+
+    }
+
+    .anuncio p{
+        width: 500px;
+    height: 130px;
+    font-family: 'Mina';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 24px;
+    line-height:30px;
+    }
+    .gratuito{
+
+        margin-top: 12%;
+        
+        width: 500px;
+        height: 50px;
+        font-size: 29px;
+     
+       
+
+
+
+
+
+
+    }
+
+
+    .info{
+
+
+        
+
+        height: 600px;
+        display: flex;
+
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+
+
+
+
+
+    .mobile,.ionic{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        border: 4px solid rgba(255, 255, 255,0.5);
+        border-radius: 15px;
+        width: 500px;
+        height: 600px;
+        margin-top: 5%;
+        cursor: pointer;
+        transition: 1s;
+      
+    
+    }.mobile:hover,.ionic:hover{
+    
+    
+        transition: 1s;
+        box-shadow: 0px 0px 80px 5px white;
+        border: 4px solid rgb(255, 255, 255);
+        transform: scale(1.04);
+    
+    
+    }
+
+
+.ionic .minititle{
+
+    margin-top: 2%;
+    margin-bottom: 5px;
+
+}
+ 
+    
+.mobile .minititle{
+    margin-top: 2%;
+    margin-bottom: 5px;
+}
+
+
+
+.txt{
+    width: 450px;
+    height: 95px;
+    
+
+    font-family: 'Mina';
+    font-style: normal;
+    font-weight: 150;
+    font-size: 15px;
+    line-height: 20px;
+    padding-top: 0px;
+}
+
+
+
+.porques{
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+
+.startlist{
+    color: white;
+    width: 500px;
+    height: 22px;
+    margin-left:30px ;
+
+    font-family: 'Mina';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 22px;
+    line-height: 19px;
+ 
+   
+}
+ul{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+li{
+    color: white;
+    margin-left: 53px;
+    list-style: none;
+    padding-top: 0px;
+
+    font-family: 'Mina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.confirmado{
+    height: 30px;
+    width: 30px;
+}
+
+
+.check{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    cursor: pointer;
+    
+}
+
+.check p{
+    margin-left: 5px;
+    color: white;
+     
+    
+}
+
+.send{
+    width: 300px;
+    height: 50px;
+    margin-top: 20px;
+
+    background: rgb(0, 106, 255);
+    border-radius: 10px;
+    border: 1px solid white;
+
+    color: white;
+    outline: none;
+    transition: .5s;
+    font-size: 20px;
+}.send:hover{
+    transition: .5s;
+    color: black;
+    border: 1px solid black;
+    background-color: white;
+}
+
+#selct{
+    cursor: pointer;
+    accent-color: rgb(0, 106, 255);
+}
+ 
+
+.iontitle{
+    position: fixed;
+    
+    height: 30px;
+    width: auto;
+    filter: invert() grayscale() ;
+    filter: opacity(0.5) drop-shadow(0 0 0 rgb(0, 106, 255));
+    bottom: 5px;
+    right: 5px;
+    animation: none;
+}
+
+
+
+
+#selct{
+    cursor: pointer;
+    accent-color: rgb(0, 106, 255);
+}
+ 
+
+.iontitle{
+    position: fixed;
+    
+    height: 30px;
+    width: auto;
+    filter: invert() grayscale() ;
+    filter: opacity(0.5) drop-shadow(0 0 0 rgb(0, 106, 255));
+    bottom: 5px;
+    right: 5px;
+    animation: none;
+}
+
+
+.blockform{
+    
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+   
+   ;
+
+    top: 1000px;
+    position: absolute;
+    display: none;
+}
+
+
+.backflex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.formcontainer{
+    position: absolute;
+    z-index: 3;
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 5s;
+
+    background:  rgb(50, 50, 50);
+    
+    mix-blend-mode: normal;
+    border-radius: 10px;
+    top:200px;
+    margin-bottom: 50%;
+}
+
+
+.formcontainer span{
+    font-family: 'Mina';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 32px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+}
+
+.facaCad{
+    margin-left: 45px;
+    margin-bottom: 15px;
+}
+
+.inpt{
+    width: 300px;
+    height: 33px;
+    left: 46px;
+    top: 1039px;
+
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    border-radius: 4px;
+    cursor: text;
+    outline:none;
+
+
+    font-family: 'Mina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    color: black;
+}
+
+
+
+
+}
+    
+
+
+
+
+@media (min-width:1000px) {
+
+    .title{
+            font-size: 100px;
+
+            width: 740px;
+            padding-bottom: 30px;
+
+    }    
+    .cabecalho{
+        height: 1000px;
+        background-size: 100% 1000px;
+
+
+
+    }
+
+
+    .cabecont{
+
+        padding-top: 6%;
+
+
+
+
+    }
+    .ionIcon{
+        height: 65px;
+        width: auto;
+    }
+    .anuncio{
+        margin-top: 4%;
+        
+
+
+    }
+
+    .anuncio p{
+
+        
+        width: 700px;
+    height: 130px;
+    font-family: 'Mina';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 34px;
+    line-height:40px;
+    margin-bottom: 1.5%;
+    }
+    .gratuito{
+
+        margin-top: 15%;
+        
+        width: 700px;
+        height: 80px;
+        font-size: 36px;
+     
+       
+
+
+
+
+
+
+    }
+
+    .info{
+
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 500px;
+         
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+.minititle,.txt{
+    color: white;
+    margin-left: 35px;
+}
+
+.mobile,.ionic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    border: 4px solid rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    width: 850px;
+    height: 500px;
+    margin-top: 5%;
+    margin-left: 5px;
+    cursor: pointer;
+    transition: 1s;
+  
+
+}.mobile:hover,.ionic:hover{
+
+
+    transition: 1s;
+    box-shadow: 0px 0px 80px 5px white;
+    border: 4px solid rgb(255, 255, 255);
+    transform: scale(1.04);
+
+
+}
+.minititle{
+    width: 91px;
+    height: 42px;
+    
+
+    font-family: 'Mina';
+    font-style: normal;
+
+    font-size: 50px;
+    
+
+   
+}
+
+.txt{
+    width: 700px;
+    height: 95px;
+    
+
+    font-family: 'Mina';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 30px;
+    line-height: 30px;
+    padding-top: 8px;
+}
+
+ 
+
+
+ 
+
+ 
+
+
+.porques{
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 130px;
+}
+
+
+.startlist{
+    color: white;
+    width: 500px;
+    height: 22px;
+    margin-left:30px ;
+
+    font-family: 'Mina';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 22px;
+    line-height: 19px;
+ 
+   
+}
+ul{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+li{
+    color: white;
+    margin-left: 53px;
+    list-style: none;
+    padding-top: 0px;
+
+    font-family: 'Mina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.confirmado{
+    height: 30px;
+    width: 30px;
+}
+
+
+.check{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    cursor: pointer;
+    
+}
+
+.check p{
+    margin-left: 5px;
+    color: white;
+     
+    
+}
+
+.send{
+    width: 300px;
+    height: 50px;
+    margin-top: 20px;
+
+    background: rgb(0, 106, 255);
+    border-radius: 10px;
+    border: 1px solid white;
+
+    color: white;
+    outline: none;
+    transition: .5s;
+    font-size: 20px;
+}.send:hover{
+    transition: .5s;
+    color: black;
+    border: 1px solid black;
+    background-color: white;
+}
+
+#selct{
+    cursor: pointer;
+    accent-color: rgb(0, 106, 255);
+}
+ 
+
+.iontitle{
+    position: fixed;
+    
+    height: 30px;
+    width: auto;
+    filter: invert() grayscale() ;
+    filter: opacity(0.5) drop-shadow(0 0 0 rgb(0, 106, 255));
+    bottom: 5px;
+    right: 5px;
+    animation: none;
+}
+
+
+.blockform{
+    z-index: 2;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+   
+   
+
+    top: 1400px;
+    position: absolute;
+    display: none;
+}
+
+
+.backflex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.formcontainer{
+    position: absolute;
+    z-index: 3;
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 5s;
+
+    background:  rgb(50, 50, 50);
+    
+    mix-blend-mode: normal;
+    border-radius: 10px;
+    top: 10px;
+    margin-bottom: 30%;
+}
+
+
+.formcontainer span{
+    font-family: 'Mina';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 32px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+}
+
+.facaCad{
+    margin-left: 45px;
+    margin-bottom: 15px;
+}
+
+.inpt{
+    width: 300px;
+    height: 33px;
+    left: 46px;
+    top: 1039px;
+
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    border-radius: 4px;
+    cursor: text;
+    outline:none;
+
+
+    font-family: 'Mina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    color: black;
+}
+
+
+
+
+ 
+
+
+
+}
