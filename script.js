@@ -9,6 +9,9 @@ window.addEventListener('scroll',function(){
 
 
 
+
+
+
 function startForm(){
     const formcont = document.querySelector('#formcont');
     const blur = document.querySelector('main');
@@ -23,7 +26,7 @@ function startForm(){
 
 
 function endForm(){
-    const blur = document.querySelector('main');
+    const blur = document.querySelector('main');        
     const effectdark = document.querySelector('#blockForm');
     const body = document.querySelector('body');
 
